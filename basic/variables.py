@@ -40,9 +40,9 @@ print('The value of pi is approximately', 3.14159)
 
 # How do you take input from the user in Python?
 
-name = input("What is your name? ")
-age = int(input("Enter your age "))
-print(type(age))
+# name = input("What is your name? ")
+# age = int(input("Enter your age "))
+# print(type(age))
 
 
 # Is Python case-sensitive? Explain with an example.
@@ -84,3 +84,9 @@ print(num_int)  # Output: 123
 # What is one basic difference between Python and JavaScript?
 # One basic difference between Python and JavaScript is that Python is a general-purpose programming language that emphasizes readability and simplicity, while JavaScript is primarily used for web development and is known for its dynamic and event-driven nature.
 
+
+
+firstname = "ProgrammerBanda"
+print(firstname)
+
+del firstname
