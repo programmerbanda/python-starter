@@ -17,7 +17,8 @@
 
 # 4. Print multiplication table of a number.
 
-# num = int(input("Please Enter Number ?"))
+num = int(input("Please Enter Number ? "))
 
-for x in range(0, 100, 2) :
-    print(x)
+for i in range(1, 11) :
+    print(f"{num} * {i} = {num * i}")
+    print(num, "*", i, "==", num * i)
